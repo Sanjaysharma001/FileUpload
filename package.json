@@ -1,0 +1,23 @@
+{
+  "name": "fileupload",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": " node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "",
+  "dependencies": {
+    "cloudinary": "^2.5.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-fileupload": "^1.5.1",
+    "mongoose": "^8.9.7",
+    "nodemailer": "^6.10.0",
+    "nodemon": "^3.1.9"
+  }
+}
